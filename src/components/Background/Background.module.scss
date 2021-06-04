@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+// small tablets/large smartphones (landscape)
+$screen-sm-min: 576px;
+// small tablets (portrait)
+$screen-md-min: 768px;
+// Tablets and small desktops
+$screen-lg-min: 882px;
+// large tablets/desktops
+$screen-xl-min: 1200px;
+
+@mixin sm {
+  @media (max-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+// medium devices
+
+@mixin md {
+  @media (max-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+// large devices
+
+@mixin lg {
+  @media (max-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+// extra-large devices
+
+@mixin xl {
+  @media (max-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+// custom devices
+
+@mixin rwd($screen) {
+  @media (max-width: $screen+"px") {
+    @content;
+  }
+}
+
+.mainContainer {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+  & .a {
+    width: 30%;
+    position: absolute;
+    right: 2%;
+    bottom: 5%;
+    z-index: 5;
+    @include sm {
+      width: 65%;
+      bottom: 1%;
+      z-index: 4;
+    }
+    @include md {
+      width: 40%;
+      z-index: 2;
+    }
+  }
+  & .b {
+    width: 100%;
+    position: absolute;
+    right: 0%;
+    top: 2%;
+    z-index: 4;
+    @include sm {
+      top: 20%;
+      z-index: 4;
+    }
+  }
+  & .c {
+    width: 70%;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    z-index: 3;
+    @include sm {
+      width: 100%;
+      top: 25%;
+      z-index: 2;
+    }
+  }
+  & .d {
+    width: 50%;
+    position: absolute;
+    right: 25%;
+    bottom: 5%;
+    @include sm {
+      top: 2%;
+      width: 90%;
+      right: 5%;
+    }
+    z-index: 3;
+  }
+  & .e {
+    width: 40%;
+    position: absolute;
+    left: 2%;
+    @include sm {
+      width: 60%;
+      bottom: 5%;
+      z-index: 5;
+    }
+    bottom: 0;
+    z-index: 4;
+  }
+}
