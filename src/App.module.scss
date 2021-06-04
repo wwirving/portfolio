@@ -1,3 +1,38 @@
-.title {
-  color: red;
+@font-face {
+  font-family: "SuisseIntl";
+  src: url(./assets/fonts/SuisseIntl-Book-WebTrial.woff);
+}
+
+@font-face {
+  font-family: "SuisseIntlItalic";
+  src: url(./assets/fonts/SuisseIntl-BookItalic-WebTrial.woff);
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SuisseIntl";
+  font-size: 4vw;
+  line-height: 2;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.background {
+  z-index: 0;
+}
+
+.mainmenu {
+  z-index: 1;
 }

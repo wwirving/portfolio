@@ -1,0 +1,42 @@
+.textBox {
+  display: grid;
+  grid-template-columns: 1fr 3.2fr;
+}
+
+.tags {
+  text-align: right;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+  text-transform: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+a:focus {
+  color: black;
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.title {
+  line-height: 1.7;
+  height: 1.5rem;
+  padding-left: 2px;
+  opacity: 1;
+  background-color: black;
+  color: white;
+}

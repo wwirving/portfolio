@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.headerLogo {
+  width: 25%;
+}
+
+.title {
+  background-color: #ffff00;
+}

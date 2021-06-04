@@ -1,0 +1,25 @@
+.stackBlock {
+}
+
+.title {
+  line-height: 1.7;
+  padding-left: 2px;
+  opacity: 1;
+  background-color: black;
+  color: white;
+}
+
+.textContainer {
+  padding-left: 2px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  & > ul > li {
+    list-style-type: none;
+    line-height: 2;
+  }
+}
+
+.tags > li {
+  font-family: "SuisseIntlItalic";
+  text-align: right;
+}
