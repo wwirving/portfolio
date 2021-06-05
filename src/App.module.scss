@@ -8,6 +8,53 @@
   src: url(./assets/fonts/SuisseIntl-BookItalic-WebTrial.woff);
 }
 
+// small tablets/large smartphones (landscape)
+$screen-sm-min: 576px;
+// small tablets (portrait)
+$screen-md-min: 768px;
+// Tablets and small desktops
+$screen-lg-min: 882px;
+// large tablets/desktops
+$screen-xl-min: 1200px;
+
+@mixin sm {
+  @media (max-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+// medium devices
+
+@mixin md {
+  @media (max-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+// large devices
+
+@mixin lg {
+  @media (max-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+// extra-large devices
+
+@mixin xl {
+  @media (max-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+// custom devices
+
+@mixin rwd($screen) {
+  @media (max-width: $screen+"px") {
+    @content;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 0; /* Remove scrollbar space */
   background: transparent; /* Optional: just make scrollbar invisible */
@@ -23,17 +70,30 @@
 }
 
 .mainContainer {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  justify-content: center;
-  height: 100vh;
+  @include sm {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+  }
   overflow: hidden;
-  width: auto;
-  gap: 20px;
-  z-index: 1;
+  width: 100%;
+  gap: 40px;
+  padding: 2%;
+  height: 100vh;
 }
 
 .background {
   z-index: 0;
+}
+
+.frame {
+  z-index: 20;
+}
+
+.projectPlayer {
+  display: none;
 }

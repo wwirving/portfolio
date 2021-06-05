@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./SlideBlock.module.scss";
+import styles from "./SlideBlockMobile.module.scss";
 import { getID } from "../../assets/functions/functions";
 
-const SlideBlock = (props) => {
+const SlideBlockMobile = (props) => {
   const { mainImg } = props.project;
 
   return (
@@ -12,4 +12,4 @@ const SlideBlock = (props) => {
   );
 };
 
-export default SlideBlock;
+export default SlideBlockMobile;

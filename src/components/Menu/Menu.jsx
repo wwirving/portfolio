@@ -6,6 +6,8 @@ import StackBlock from "../StackBlock/StackBlock";
 import MenuBlock from "../MenuBlock/MenuBlock";
 import SocialBlock from "../SocialBlock/SocialBlock";
 import ArchiveBlock from "../ArchiveBlock/ArchiveBlock";
+import SlideBlockMobile from "../SlideBlockMobile/SlideBlockMobile";
+import projects from "../../data/projects";
 
 const Menu = () => {
   return (
@@ -33,6 +35,26 @@ const Menu = () => {
         content="Click here"
         href="https://mailchi.mp/1395080e3111/will-irving-updates"
       ></MenuBlock>
+      <SlideBlockMobile
+        project={projects[0]}
+        className={styles.hide}
+      ></SlideBlockMobile>
+      <SlideBlockMobile
+        project={projects[1]}
+        className={styles.hide}
+      ></SlideBlockMobile>
+      <SlideBlockMobile
+        project={projects[2]}
+        className={styles.hide}
+      ></SlideBlockMobile>
+      <SlideBlockMobile
+        project={projects[3]}
+        className={styles.hide}
+      ></SlideBlockMobile>
+      <SlideBlockMobile
+        project={projects[6]}
+        className={styles.hide}
+      ></SlideBlockMobile>
     </div>
   );
 };
