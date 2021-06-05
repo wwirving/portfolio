@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./MenuItem.module.scss";
+import styles from "./MenuBlock.module.scss";
 
-const MenuItem = (props) => {
+const MenuBlock = (props) => {
   return (
     <div className={styles.textBox}>
       <p className={styles.title}>{props.title}</p>
@@ -12,4 +12,4 @@ const MenuItem = (props) => {
   );
 };
 
-export default MenuItem;
+export default MenuBlock;

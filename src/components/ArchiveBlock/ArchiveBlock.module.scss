@@ -1,0 +1,19 @@
+.textContainer {
+  padding-left: 2px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  & > ul > li {
+    list-style-type: none;
+    line-height: 2;
+    text-align: right;
+  }
+}
+
+.title {
+  line-height: 1.7;
+  height: 1.5rem;
+  padding-left: 2px;
+  opacity: 1;
+  background-color: black;
+  color: white;
+}
