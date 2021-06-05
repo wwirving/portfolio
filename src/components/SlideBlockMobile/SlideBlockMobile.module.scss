@@ -48,7 +48,7 @@ $screen-xl-min: 1200px;
 .imgCont > img {
   width: 100%;
   height: auto;
-  border: 1px solid black;
+  border: 1px solid white;
   display: none;
   @include sm {
     display: block;

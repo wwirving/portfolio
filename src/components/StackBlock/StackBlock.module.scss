@@ -2,7 +2,7 @@
 }
 
 .title {
-  line-height: 1.7;
+  line-height: 3;
   padding-left: 2px;
   opacity: 1;
   background-color: black;
@@ -15,7 +15,7 @@
   grid-template-columns: 1fr 1fr;
   & > ul > li {
     list-style-type: none;
-    line-height: 2;
+    line-height: 1.5;
   }
 }
 

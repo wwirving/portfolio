@@ -4,7 +4,7 @@ import styles from "./ArchiveBlock.module.scss";
 const ArchiveBlock = () => {
   return (
     <div className={styles.textContainer}>
-      <p className={styles.title}>ARCHIVE</p>
+      <p className={styles.title}>Archive</p>
       <ul>
         <li>Yuki Ame</li>
         <li>Live</li>

@@ -33,8 +33,8 @@ const Background = () => {
           initial="hidden"
           animate="visible"
           transition={{
-            default: { duration: 5, ease: "easeInOut" },
-            fill: { duration: 5, ease: [1, 0, 0.8, 1] },
+            default: { duration: 10, ease: "easeInOut" },
+            fill: { duration: 7, ease: [1, 0, 0.8, 1] },
           }}
         />
         <motion.circle
@@ -48,8 +48,8 @@ const Background = () => {
           initial="hidden"
           animate="visible"
           transition={{
-            default: { duration: 5, ease: "easeInOut" },
-            fill: { duration: 5, ease: [1, 0, 0.8, 1] },
+            default: { duration: 10, ease: "easeInOut" },
+            fill: { duration: 7, ease: [1, 0, 0.8, 1] },
           }}
         />
       </motion.svg>
@@ -68,7 +68,7 @@ const Background = () => {
           initial="hidden"
           animate="visible"
           transition={{
-            default: { duration: 5, ease: "easeInOut" },
+            default: { duration: 10, ease: "easeInOut" },
             fill: { duration: 5, ease: [1, 0, 0.8, 1] },
           }}
         />
@@ -83,8 +83,8 @@ const Background = () => {
           initial="hidden"
           animate="visible"
           transition={{
-            default: { duration: 5, ease: "easeInOut" },
-            fill: { duration: 5, ease: [1, 0, 0.8, 1] },
+            default: { duration: 10, ease: "easeInOut" },
+            fill: { duration: 4, ease: [1, 0, 0.8, 1] },
           }}
         />
       </motion.svg>
@@ -103,8 +103,8 @@ const Background = () => {
           initial="hidden"
           animate="visible"
           transition={{
-            default: { duration: 5, ease: "easeInOut" },
-            fill: { duration: 5, ease: [1, 0, 0.8, 1] },
+            default: { duration: 10, ease: "easeInOut" },
+            fill: { duration: 6, ease: [1, 0, 0.8, 1] },
           }}
         />
       </motion.svg>
@@ -123,8 +123,8 @@ const Background = () => {
           initial="hidden"
           animate="visible"
           transition={{
-            default: { duration: 5, ease: "easeInOut" },
-            fill: { duration: 5, ease: [1, 0, 0.8, 1] },
+            default: { duration: 10, ease: "easeInOut" },
+            fill: { duration: 6, ease: [1, 0, 0.8, 1] },
           }}
         />
         <motion.circle
@@ -138,8 +138,8 @@ const Background = () => {
           initial="hidden"
           animate="visible"
           transition={{
-            default: { duration: 5, ease: "easeInOut" },
-            fill: { duration: 5, ease: [1, 0, 0.8, 1] },
+            default: { duration: 10, ease: "easeInOut" },
+            fill: { duration: 7, ease: [1, 0, 0.8, 1] },
           }}
         />
         <motion.circle
@@ -153,7 +153,7 @@ const Background = () => {
           initial="hidden"
           animate="visible"
           transition={{
-            default: { duration: 5, ease: "easeInOut" },
+            default: { duration: 10, ease: "easeInOut" },
             fill: { duration: 5, ease: [1, 0, 0.8, 1] },
           }}
         />
@@ -173,8 +173,8 @@ const Background = () => {
           initial="hidden"
           animate="visible"
           transition={{
-            default: { duration: 5, ease: "easeInOut" },
-            fill: { duration: 5, ease: [1, 0, 0.8, 1] },
+            default: { duration: 10, ease: "easeInOut" },
+            fill: { duration: 6, ease: [1, 0, 0.8, 1] },
           }}
         />
       </motion.svg>

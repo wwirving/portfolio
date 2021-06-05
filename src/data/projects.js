@@ -19,7 +19,7 @@ const projects = [
   },
   {
     title: "webCalculator",
-    tags: ["coding", "design", "testing"],
+    tags: ["code", "design", "testing"],
     mainImg:
       "https://drive.google.com/file/d/1cly_C2lrU_vdupE7YQ58-d0HdiTQMBCQ/view?usp=sharing",
     description: "Digital calculator created using HTML, CSS and JS",
@@ -34,7 +34,7 @@ const projects = [
   },
   {
     title: "morseTranslator",
-    tags: ["coding", "design", "testing"],
+    tags: ["code", "design", "testing"],
     mainImg:
       "https://drive.google.com/file/d/1UN1sHXzyvzLgJpesS8d140DMLrGRmyiP/view?usp=sharing",
     description: "",
@@ -63,7 +63,7 @@ const projects = [
   },
   {
     title: "L2IMG",
-    tags: ["concept", "coding"],
+    tags: ["concept", "code"],
     mainImg: "./assets/images",
     description:
       "Experimental tool to scrub, download and catalogue google images via. Node.JS (images-scraper module).",

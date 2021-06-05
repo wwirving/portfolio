@@ -4,7 +4,7 @@ import projects from "../../data/projects";
 
 const ProjectBlock = () => {
   const getProjectTitle = (project, index) => (
-    <li key={project.idProject + "title" + index}>{project.title}</li>
+    <li key={project.idProject + "title" + index}>~ {project.title}</li>
   );
 
   const getProjectTags = (project, index) => (
@@ -13,10 +13,9 @@ const ProjectBlock = () => {
 
   return (
     <div className={styles.projectBlock}>
-      <p className={styles.title}>PROJECTS</p>
+      <p className={styles.title}>Projects</p>
       <div className={styles.textContainer}>
         <ul>{projects.map(getProjectTitle)}</ul>
-        <ul className={styles.tags}>{projects.map(getProjectTags)}</ul>
       </div>
     </div>
   );

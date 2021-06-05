@@ -16,7 +16,7 @@ const App = () => {
       <div className={styles.projectPlayer}>
         <FramePlayer
           className={styles.frame}
-          project={projects[1]}
+          project={projects[0]}
         ></FramePlayer>
       </div>
       <Background className={styles.background} />

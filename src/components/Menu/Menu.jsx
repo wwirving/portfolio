@@ -16,12 +16,12 @@ const Menu = () => {
       <div className={styles.line}></div>
       <ProjectBlock></ProjectBlock>
       <div className={styles.line}></div>
-      <StackBlock></StackBlock>
-      <div className={styles.line}></div>
-      <MenuBlock title="ABOUT" content="Read More . . ." href=""></MenuBlock>
+      {/* <StackBlock></StackBlock>
+      <div className={styles.line}></div> */}
+      <MenuBlock title="About" content="Read More . . ." href=""></MenuBlock>
       <div className={styles.line}></div>
       <MenuBlock
-        title="CONTACT"
+        title="Contact"
         content="wjnirving@gmail.com"
         href="mailto:wjnirving@gmail.com"
       ></MenuBlock>
@@ -31,20 +31,12 @@ const Menu = () => {
       <ArchiveBlock></ArchiveBlock>
       <div className={styles.line}></div>
       <MenuBlock
-        title="NEWSLETTER"
+        title="Newsletter"
         content="Click here"
         href="https://mailchi.mp/1395080e3111/will-irving-updates"
       ></MenuBlock>
       <SlideBlockMobile
         project={projects[0]}
-        className={styles.hide}
-      ></SlideBlockMobile>
-      <SlideBlockMobile
-        project={projects[1]}
-        className={styles.hide}
-      ></SlideBlockMobile>
-      <SlideBlockMobile
-        project={projects[2]}
         className={styles.hide}
       ></SlideBlockMobile>
       <SlideBlockMobile

@@ -4,7 +4,7 @@ import styles from "./SocialBlock.module.scss";
 const SocialBlock = () => {
   return (
     <div className={styles.textContainer}>
-      <p className={styles.title}>SOCIAL</p>
+      <p className={styles.title}>Social</p>
       <ul>
         <li>
           <a href="https://www.instagram.com/wwirving/">Instagram</a>

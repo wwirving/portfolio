@@ -7,8 +7,8 @@ const FramePlayer = (props) => {
   return (
     <div className={styles.mainCont}>
       <div className={styles.header}>
-        <p>{title.toUpperCase()}</p>
-        <span>X</span>
+        <p>{title}</p>
+        <span id="close">X</span>
       </div>
       <div className={styles.frameContainer}>
         <iframe
@@ -19,7 +19,7 @@ const FramePlayer = (props) => {
         ></iframe>
       </div>
       <div className={styles.footer}>
-        <p>INFO</p>
+        <p>Info</p>
       </div>
     </div>
   );

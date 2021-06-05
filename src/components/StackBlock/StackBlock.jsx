@@ -13,7 +13,7 @@ const StackBlock = () => {
 
   return (
     <div className={styles.stackBlock}>
-      <p className={styles.title}>STACK</p>
+      <p className={styles.title}>Stack</p>
       <div className={styles.textContainer}>
         <ul>
           {stacks[0].languages.map(getLang)}
