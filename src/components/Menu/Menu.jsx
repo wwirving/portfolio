@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Menu.module.scss";
 import Header from "../Header/Header";
 import ProjectBlock from "../ProjectBlock/ProjectBlock";
-import StackBlock from "../StackBlock/StackBlock";
+// import StackBlock from "../StackBlock/StackBlock";
 import MenuBlock from "../MenuBlock/MenuBlock";
 import SocialBlock from "../SocialBlock/SocialBlock";
 import ArchiveBlock from "../ArchiveBlock/ArchiveBlock";

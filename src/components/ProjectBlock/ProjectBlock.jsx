@@ -7,9 +7,9 @@ const ProjectBlock = () => {
     <li key={project.idProject + "title" + index}>~ {project.title}</li>
   );
 
-  const getProjectTags = (project, index) => (
-    <li key={project.idProject + "tag" + index}>{project.tags.join(", ")}</li>
-  );
+  // const getProjectTags = (project, index) => (
+  //   <li key={project.idProject + "tag" + index}>{project.tags.join(", ")}</li>
+  // );
 
   return (
     <div className={styles.projectBlock}>

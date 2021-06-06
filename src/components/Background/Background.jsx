@@ -15,6 +15,19 @@ const icon = {
   },
 };
 
+const circleIcon = {
+  hidden: {
+    opacity: 1,
+    pathLength: 0,
+    fill: "rgba(0, 0, 0, 0)",
+  },
+  visible: {
+    opacity: 1,
+    pathLength: 1,
+    fill: "rgba(0, 0, 0, 1)",
+  },
+};
+
 const Background = () => {
   return (
     <div className={styles.mainContainer}>
@@ -41,15 +54,15 @@ const Background = () => {
           cx="105.979"
           cy="363.347"
           r="76.8876"
-          fill="white"
+          fill="black"
           stroke="black"
           strokeWidth="2"
-          variants={icon}
+          variants={circleIcon}
           initial="hidden"
           animate="visible"
           transition={{
             default: { duration: 10, ease: "easeInOut" },
-            fill: { duration: 7, ease: [1, 0, 0.8, 1] },
+            fill: { duration: 5, ease: [1, 0, 0.8, 1] },
           }}
         />
       </motion.svg>
@@ -76,15 +89,15 @@ const Background = () => {
           cx="1204.66"
           cy="166.286"
           r="25.2511"
-          fill="white"
+          fill="black"
           stroke="black"
           strokeWidth="2"
-          variants={icon}
+          variants={circleIcon}
           initial="hidden"
           animate="visible"
           transition={{
             default: { duration: 10, ease: "easeInOut" },
-            fill: { duration: 4, ease: [1, 0, 0.8, 1] },
+            fill: { duration: 5, ease: [1, 0, 0.8, 1] },
           }}
         />
       </motion.svg>
@@ -131,25 +144,25 @@ const Background = () => {
           cx="548.179"
           cy="383.335"
           r="29.4081"
-          fill="white"
+          fill="black"
           stroke="black"
           strokeWidth="2"
-          variants={icon}
+          variants={circleIcon}
           initial="hidden"
           animate="visible"
           transition={{
             default: { duration: 10, ease: "easeInOut" },
-            fill: { duration: 7, ease: [1, 0, 0.8, 1] },
+            fill: { duration: 5, ease: [1, 0, 0.8, 1] },
           }}
         />
         <motion.circle
           cx="250.856"
           cy="131.06"
           r="29.4081"
-          fill="white"
+          fill="black"
           stroke="black"
           strokeWidth="2"
-          variants={icon}
+          variants={circleIcon}
           initial="hidden"
           animate="visible"
           transition={{

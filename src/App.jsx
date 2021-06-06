@@ -4,6 +4,7 @@ import Background from "./components/Background";
 import Menu from "./components/Menu/Menu";
 import Slides from "./components/Slides/Slides";
 import FramePlayer from "./components/FramePlayer/FramePlayer";
+import VidPlayer from "./components/VidPlayer/VidPlayer";
 import projects from "./data/projects";
 
 const App = () => {
@@ -18,6 +19,9 @@ const App = () => {
           className={styles.frame}
           project={projects[0]}
         ></FramePlayer>
+      </div>
+      <div className={styles.vidPlayer}>
+        <VidPlayer className={styles.frame} project={projects[0]}></VidPlayer>
       </div>
       <Background className={styles.background} />
     </>
