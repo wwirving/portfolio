@@ -1,0 +1,31 @@
+* {
+  cursor: crosshair;
+}
+
+.button {
+  font-weight: 500;
+  border-radius: 60px;
+  background-color: none;
+  color: rgb(255, 255, 255);
+  border: 1px solid white;
+  flex: 0 0 50%;
+  display: inline-block;
+  line-height: 1;
+  padding: 0.05rem 1.5rem 0.05rem;
+  font-style: normal;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  justify-content: center;
+  & > p {
+    font-weight: 500;
+    font-style: italic;
+  }
+  cursor: crosshair;
+}
+
+.button:hover {
+  background-color: black;
+  opacity: 0.6;
+}

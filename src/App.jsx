@@ -6,6 +6,7 @@ import Slides from "./components/Slides/Slides";
 import FramePlayer from "./components/FramePlayer/FramePlayer";
 import VidPlayer from "./components/VidPlayer/VidPlayer";
 import projects from "./data/projects";
+import StartButton from "./components/StartButton/StartButton";
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
         ></FramePlayer>
       </div>
       <div className={styles.vidPlayer}>
-        <VidPlayer className={styles.frame} project={projects[0]}></VidPlayer>
+        <VidPlayer className={styles.frame} project={projects[6]}></VidPlayer>
       </div>
       <Background className={styles.background} />
     </>

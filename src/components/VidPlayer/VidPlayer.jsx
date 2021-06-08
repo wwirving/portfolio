@@ -1,6 +1,7 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import styles from "./VidPlayer.module.scss";
+import StartButton from "../StartButton/StartButton";
 
 const VidPlayer = (props) => {
   const { title, links } = props.project;
@@ -12,15 +13,18 @@ const VidPlayer = (props) => {
         <span id="close">X</span>
       </div>
       <div className={styles.frameContainer}>
-        <ReactPlayer
-          url="https://player.vimeo.com/video/507461364"
-          width="95%"
-          height="95%"
-          controls={false}
-          playing={true}
-          volume={1}
-          muted={true}
-        />
+        <StartButton></StartButton>
+        <div className={styles.vidContainer}>
+          <ReactPlayer
+            url="https://vimeo.com/559686568/5de6600d65"
+            width="95%"
+            height="95%"
+            controls={false}
+            playing={false}
+            volume={1}
+            muted={true}
+          />
+        </div>
       </div>
       <div className={styles.footer}>
         <p>Info</p>
