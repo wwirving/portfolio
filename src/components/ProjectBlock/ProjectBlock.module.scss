@@ -7,20 +7,32 @@
   opacity: 1;
   background-color: black;
   color: white;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
 .textContainer {
   padding-left: 2px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  & > ul > li {
+  & > .left > li {
     list-style-type: none;
     line-height: 2;
-    font-style: italic;
+    text-align: left;
+  }
+  & > .right > li {
+    list-style-type: none;
+    line-height: 2;
+    text-align: right;
   }
 }
 
 .tags > li {
   font-family: "SuisseIntlItalic";
   text-align: right;
+}
+
+.link {
+  color: white;
+  z-index: 10;
 }

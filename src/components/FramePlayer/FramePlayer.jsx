@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./FramePlayer.module.scss";
+import { Link } from "react-router-dom";
 
 const FramePlayer = (props) => {
   const { title, links } = props.project;
@@ -8,7 +9,9 @@ const FramePlayer = (props) => {
     <div className={styles.mainCont}>
       <div className={styles.header}>
         <p>{title}</p>
-        <span id="close">X</span>
+        <span id="close">
+          <Link to="/">X</Link>
+        </span>
       </div>
       <div className={styles.frameContainer}>
         <iframe

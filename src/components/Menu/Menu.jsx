@@ -13,7 +13,6 @@ const Menu = () => {
   return (
     <div className={styles.menuContainer}>
       <Header></Header>
-      <div className={styles.line}></div>
       <ProjectBlock></ProjectBlock>
       <div className={styles.line}></div>
       {/* <StackBlock></StackBlock>
@@ -37,14 +36,6 @@ const Menu = () => {
       ></MenuBlock>
       <SlideBlockMobile
         project={projects[0]}
-        className={styles.hide}
-      ></SlideBlockMobile>
-      <SlideBlockMobile
-        project={projects[3]}
-        className={styles.hide}
-      ></SlideBlockMobile>
-      <SlideBlockMobile
-        project={projects[6]}
         className={styles.hide}
       ></SlideBlockMobile>
     </div>

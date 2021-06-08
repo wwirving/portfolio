@@ -1,9 +1,17 @@
+.sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 10;
+  top: 0.000005%;
+}
+
 .header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  background-color: black;
 }
 
 .headerText {
@@ -11,6 +19,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
+  margin-bottom: 0.5rem;
 }
 
 .headerLogo {
@@ -20,4 +29,11 @@
 
 .title {
   background-color: black;
+  margin-top: 0.5rem;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: white;
 }
