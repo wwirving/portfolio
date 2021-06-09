@@ -8,6 +8,7 @@ const ArchiveBlock = () => {
       <ul>
         <li>Yuki Ame</li>
         <li>Live</li>
+        <li>Patches</li>
       </ul>
     </div>
   );
