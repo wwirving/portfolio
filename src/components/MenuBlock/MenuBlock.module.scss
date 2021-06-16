@@ -1,6 +1,7 @@
 .textBox {
   display: grid;
   grid-template-columns: 1fr 3.2fr;
+  grid-template-rows: 1fr;
 }
 
 .tags {
@@ -33,7 +34,6 @@ a:link {
 }
 
 .title {
-  line-height: 1.7;
   height: 1.5rem;
   padding-left: 2px;
   opacity: 1;

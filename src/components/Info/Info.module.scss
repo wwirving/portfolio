@@ -1,0 +1,141 @@
+// small tablets/large smartphones (landscape)
+$screen-sm-min: 576px;
+// small tablets (portrait)
+$screen-md-min: 768px;
+// Tablets and small desktops
+$screen-lg-min: 882px;
+// large tablets/desktops
+$screen-xl-min: 1200px;
+
+@mixin sm {
+  @media (max-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+// medium devices
+
+@mixin md {
+  @media (max-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+// large devices
+
+@mixin lg {
+  @media (max-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+// extra-large devices
+
+@mixin xl {
+  @media (max-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+// custom devices
+
+@mixin rwd($screen) {
+  @media (max-width: $screen+"px") {
+    @content;
+  }
+}
+
+
+.infoContainer {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    position: absolute;
+    background-color: black;
+    border: 1px solid white;
+    width: 45%;
+    right: 25%;
+    @include sm {
+        width: 80%;
+        right: 10%;
+    }
+    overflow-y: scroll;
+    height: 80vh;
+    top: 10%;
+}
+
+.invisible {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    position: absolute;
+    background-color: white;
+    opacity: 0.8;
+    width: 45%;
+    right: 25%;
+    overflow-y: scroll;
+    height: 90vh;
+    top: 5%;
+    border: 1px solid black;
+}
+
+.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 10;
+    top: 0.000005%;
+    background-color: black;
+  }
+
+  
+.header {
+    display: flex;
+    position: sticky;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+    & > p {
+        color: white;
+        font-weight: bold;
+    }
+    & > span {
+        color: white;
+    }
+}
+
+.line {
+    width: 90%;
+    height: 1px;
+    background-color: white;
+    margin: 0 5%;
+  }
+  
+.textBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 5%;
+    line-height: 2;
+    white-space: pre-wrap;
+}
+
+.links {
+    & > p {
+       font-weight: bold;
+        line-height: 3;
+    }
+    & > ul > a > li {
+        list-style-type: none;
+    }
+    margin-left: 5%;
+    padding: 5% 0;
+
+
+}

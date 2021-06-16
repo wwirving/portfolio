@@ -6,7 +6,6 @@ const ArchiveBlock = () => {
     <div className={styles.textContainer}>
       <p className={styles.title}>Archive</p>
       <ul>
-        <li>Yuki Ame</li>
         <li>Live</li>
         <li>Patches</li>
       </ul>

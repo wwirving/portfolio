@@ -19,17 +19,20 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  margin-bottom: 0.5rem;
+  // margin-bottom: 0.5rem;
 }
 
 .headerLogo {
-  width: 15%;
+  width: 20%;
   display: none;
+  margin-top: 3%;
+  margin-right: 5%;
 }
 
 .title {
   background-color: black;
   margin-top: 0.5rem;
+  line-height: 2;
 }
 
 .line {

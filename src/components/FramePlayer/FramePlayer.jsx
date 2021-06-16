@@ -22,7 +22,7 @@ const FramePlayer = (props) => {
         ></iframe>
       </div>
       <div className={styles.footer}>
-        <p>Info</p>
+        <p onClick={props.toggle}>Info</p>
       </div>
     </div>
   );

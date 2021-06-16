@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState }from "react";
 import styles from "./Project.module.scss";
 import { useParams, useLocation } from "react-router-dom";
 import FramePlayer from "../../components/FramePlayer";
+import Info from "../../components/Info"
 import projects from "../../data/projects.js";
 
 const Project = () => {
@@ -11,10 +12,17 @@ const Project = () => {
     return obj.title === projectId;
   });
 
+  const [ info, setInfo] = useState(false);
+
+  const toggleInfo = () => {
+    setInfo(!info);
+  }
+
   return (
     <>
-      <div className={styles.projectPlayer}>
-        <FramePlayer className={styles.frame} project={filteredProjects[0]} />
+      <div className={info}>
+        <Info project={filteredProjects[0]} toggle={toggleInfo} info={info}/>
+        <FramePlayer className={styles.frame} project={filteredProjects[0]} toggle={toggleInfo} />
       </div>
     </>
   );
