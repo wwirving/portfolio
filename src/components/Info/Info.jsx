@@ -1,8 +1,11 @@
 import React from "react";
 import styles from "./Info.module.scss";
+import { Link } from "react-router-dom";
 
 const Info = (props) => {
   const { title, description, links} = props.project
+
+  const link = "/github"
 
   const showInfo = props.info ? styles.infoContainer : styles.invisible;
 
@@ -20,11 +23,9 @@ const Info = (props) => {
         {description}
       </div>
       <div className={styles.links}>
-        <p>Links</p>
-        <a href="www.google.com" target="_blank">Github
-          </a>
-          <a href={links[2]} target="_blank">
-          Figma</a>
+        <Link to={`/github/${title}`}>
+          Github!!!!!
+        </Link>
       </div>
     </div>
      
