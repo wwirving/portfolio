@@ -6,8 +6,7 @@ const Header = () => {
     <div className={styles.sticky}>
       <div className={styles.header}>
         <div className={styles.headerText}>
-          <p className={styles.title}>Will Irving</p>
-          <p>Developer & Digital Artist</p>
+          <p className={styles.title}>WILL IRVING</p>
         </div>
         <div className={styles.headerLogo}>
           <svg

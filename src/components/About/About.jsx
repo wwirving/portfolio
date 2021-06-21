@@ -6,7 +6,7 @@ const About = () => {
     <>
     <p className={styles.heading}>About</p>
     <p>
-      Will Irving is a Bristol based digital artist and software developer working across programming, electronic music and visual media. 
+      Will Irving is a Bristol based software developer and digital artist working across programming, electronic music and visual media. 
     </p>
     </>
   );

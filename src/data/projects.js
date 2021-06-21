@@ -1,9 +1,27 @@
 const projects = [
   {
+    title: "artefact",
+    tags: ["coding", "design"],
+    mainImg:
+      "https://drive.google.com/file/d/1nFQ4Px60qapHz0pgNRyve71UpfYWilD8/view?usp=sharing",
+    alt: "artefact menu image",
+    hoverImg: "",
+    description:
+      `Artefact is a web API used to search and display images of artefacts from Met Museum archive , filtered by medium and search query. Click image to display more information`,
+    links: {
+      online: "https://github.com/wwirving/artefact",
+      github: "https://github.com/wwirving/artefact",
+      figma:
+        "https://www.figma.com/file/FD21nxBEniYTAn0dXup42C/Sculpture-API?node-id=0%3A1",
+    },
+    imgAssets: {},
+    idProject: "artefact",
+  },
+  {
     title: "objectCloud",
     tags: ["coding", "design", "sound"],
     mainImg:
-      "https://drive.google.com/file/d/1qiR9riF7FE4Wdv5bAJ2Sta_OR-j4XKYY/view?usp=sharing",
+      "https://drive.google.com/file/d/1yqhG5S4u4a3H3XrB27OcPSBq9MWNCf7r/view?usp=sharing",
     alt: "objectCloud menu image",
     hoverImg: "../../assets/images/ocloud/main.png",
     description:
@@ -27,7 +45,7 @@ The main character and design of the game were generated in Figma. The font used
     title: "webCalculator",
     tags: ["code", "design", "testing"],
     mainImg:
-      "https://drive.google.com/file/d/1cly_C2lrU_vdupE7YQ58-d0HdiTQMBCQ/view?usp=sharing",
+      "https://drive.google.com/file/d/1PRfcFofpdlX1_ymOcs7UFwDm2tsYZgtY/view?usp=sharing",
     description: "Digital calculator created using HTML, CSS and JS",
     links: {
       online: "https://wwirving.github.io/webCalculator/",
@@ -42,7 +60,7 @@ The main character and design of the game were generated in Figma. The font used
     title: "morseTranslator",
     tags: ["code", "design", "testing"],
     mainImg:
-      "https://drive.google.com/file/d/1UN1sHXzyvzLgJpesS8d140DMLrGRmyiP/view?usp=sharing",
+      "https://drive.google.com/file/d/1YcQ55OuoyVpvIhLqyh2zpomU86vVJgH6/view?usp=sharing",
     description: "",
     links: {
       online: "https://wwirving.github.io/morseTranslator/",
