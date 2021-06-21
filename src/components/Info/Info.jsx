@@ -24,7 +24,7 @@ const Info = (props) => {
       </div>
       <div className={styles.links}>
         <Link to={`/github/${title}`}>
-          Github!!!!!
+          Github
         </Link>
       </div>
     </div>
