@@ -39,8 +39,8 @@ const Menu = () => {
       <div className={styles.line}></div>
       <SocialBlock></SocialBlock>
       <div className={styles.line}></div>
-      <ArchiveBlock></ArchiveBlock>
-      <div className={styles.line}></div>
+      {/* <ArchiveBlock></ArchiveBlock>
+      <div className={styles.line}></div> */}
       {/* <MenuBlock
         title="Newsletter"
         content="Click here"
