@@ -9,7 +9,7 @@ const projects = [
     description:
       `Artefact is a web API used to search and display images of artefacts from Met Museum archive , filtered by medium and search query. Click image to display more information`,
     links: {
-      online: "https://github.com/wwirving/artefact",
+      online: "https://artefact-api.web.app/",
       github: "https://github.com/wwirving/artefact",
       figma:
         "https://www.figma.com/file/FD21nxBEniYTAn0dXup42C/Sculpture-API?node-id=0%3A1",
