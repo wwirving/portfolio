@@ -7,7 +7,7 @@ const ProjectBlock = () => {
   const getProjectTitle = (project, index) => (
     <li key={project.idProject + "title" + index}>
       <Link to={"/projects/" + project.title} className={styles.link}>
-        {project.title}
+        {project.menu}
       </Link>
     </li>
   );

@@ -3,7 +3,7 @@ import styles from "./Info.module.scss";
 import { Link } from "react-router-dom";
 
 const Info = (props) => {
-  const { title, description, links} = props.project
+  const { title, description, links, menu} = props.project
 
   const link = "/github"
 
@@ -14,7 +14,7 @@ const Info = (props) => {
     <div className={showInfo}>
       <div className={styles.sticky}>
       <div className = {styles.header}>
-        <p>{title}</p>
+        <p>{menu}</p>
         <span onClick={props.toggle}>X</span>
       </div>
       <div className={styles.line}></div>
@@ -24,7 +24,7 @@ const Info = (props) => {
       </div>
       <div className={styles.links}>
         <Link to={`/github/${title}`}>
-          Github
+          <span id='underline'>Github</span>
         </Link>
       </div>
     </div>
