@@ -102,6 +102,24 @@ $screen-xl-min: 1200px;
   grid-template-columns: 1fr 1.4fr;
   grid-template-rows: 1fr;
   cursor: crosshair;
+  @include sm {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+  }
+  overflow: hidden;
+  width: 100%;
+  gap: 40px;
+  padding: 2%;
+  height: 100vh;
+}
+
+.mainContainerFade {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  grid-template-rows: 1fr;
+  cursor: crosshair;
   -webkit-animation: fadein 15s;
   /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 15s;
