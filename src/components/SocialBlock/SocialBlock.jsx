@@ -7,13 +7,13 @@ const SocialBlock = () => {
       <p className={styles.title}>Social</p>
       <ul>
         <li>
-          <a href="https://www.instagram.com/wwirving/">Instagram</a>
-        </li>
-        <li>
           <a href="https://github.com/wwirving">Github</a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/will-irving/">Linkedin</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/wwirving/">Instagram</a>
         </li>
       </ul>
     </div>

@@ -7,8 +7,7 @@ const projects = [
       "https://drive.google.com/file/d/1nFQ4Px60qapHz0pgNRyve71UpfYWilD8/view?usp=sharing",
     alt: "artefact menu image",
     hoverImg: "",
-    description:
-      `Artefact is a web interface which can be used to search and display images of artefacts from the Metropolitan Museum of Art. Queries may be filtered by medium and/or keywords before pressing 'SEARCH' to return a collection of matching objects. Click images to display more information, or navigate through the search collection using the section at the bottom of page. The font used is 'Sporting Grotesque' by Lucas Le Bihan, George Triantafyllakos & Maciej Połczyński.`,
+    description: `Artefact is a web interface which can be used to search and display images of artefacts from the Metropolitan Museum of Art. Queries may be filtered by medium and/or keywords before pressing 'SEARCH' to return a collection of matching objects. Click images to display more information, or navigate through the search collection using the section at the bottom of page. The font used is 'Sporting Grotesque' by Lucas Le Bihan, George Triantafyllakos & Maciej Połczyński.`,
     links: {
       online: "https://artefact-api.web.app/",
       github: "https://github.com/wwirving/artefact",
@@ -26,8 +25,7 @@ const projects = [
       "https://drive.google.com/file/d/1yqhG5S4u4a3H3XrB27OcPSBq9MWNCf7r/view?usp=sharing",
     alt: "objectCloud menu image",
     hoverImg: "../../assets/images/ocloud/main.png",
-    description:
-      `Object Cloud is a browser based video game environment. Navigate around the game using mouse (or touch) and try to avoid objects for as long as possible. Each object (sourced from assets by AC-bu studio) has uniquely generated audio and visual parameters and exists in a feedback-loop which increases throughout the game and upon collision with the player. All sound for the game was recorded in Ableton Live and structured using Howler.JS. The font used is 'Outward' by Raoul Audouin.`,
+    description: `Object Cloud is a browser based video game environment. Navigate around the game using mouse (or touch) and try to avoid objects for as long as possible. Each object (sourced from assets by AC-bu studio) has uniquely generated audio and visual parameters and exists in a feedback-loop which increases throughout the game and upon collision with the player. All sound for the game was recorded in Ableton Live and structured using Howler.JS. The font used is 'Outward' by Raoul Audouin.`,
     links: {
       online: "https://wwirving.github.io/objectCloud/",
       github: "https://github.com/wwirving/objectCloud",
@@ -38,28 +36,13 @@ const projects = [
     idProject: "ocloud",
   },
   {
-    title: "webCalculator",
-    menu: `Digital Calculator`,
-    tags: ["code", "design", "testing"],
-    mainImg:
-      "https://drive.google.com/file/d/1PRfcFofpdlX1_ymOcs7UFwDm2tsYZgtY/view?usp=sharing",
-    description: "This is a basic digital calculator programmed using Javascript. Click the body of the calculator to change colour, screen to clear, and search through previous queries using the right hand panel. The font used is 'Basteleur' by Keussel.",
-    links: {
-      online: "https://wwirving.github.io/webCalculator/",
-      github: "https://github.com/wwirving/webCalculator",
-      figma:
-        "https://www.figma.com/file/m84cm9QshEQYCZ4x4G6Ctv/Calculator?node-id=0%3A1",
-    },
-    imgAssets: {},
-    idProject: "calc",
-  },
-  {
     title: "morseTranslator",
     menu: `Morse Translator`,
     tags: ["code", "design", "testing"],
     mainImg:
       "https://drive.google.com/file/d/1YcQ55OuoyVpvIhLqyh2zpomU86vVJgH6/view?usp=sharing",
-    description: "This is a translator and audio interface for translation of characters into Morse Code programmed using Javascript. Enter text and hit the circular button to translate, and make sure sound is enabled to hear the audio translation. Order can be reversed by clicking the left hand side button. The fonts used are 'Happy Times at the IKOB New Game Plus Edition' by Lucas Le Bihan and Pilowlava by Anton Moglia + Jérémy Landes.",
+    description:
+      "This is a translator and audio interface for translation of characters into Morse Code programmed using Javascript. Enter text and hit the circular button to translate, and make sure sound is enabled to hear the audio translation. Order can be reversed by clicking the left hand side button. The fonts used are 'Happy Times at the IKOB New Game Plus Edition' by Lucas Le Bihan and Pilowlava by Anton Moglia + Jérémy Landes.",
     links: {
       online: "https://wwirving.github.io/morseTranslator/",
       github: "https://github.com/wwirving/morseTranslator",
@@ -68,6 +51,40 @@ const projects = [
     },
     imgAssets: {},
     idProject: "mors",
+  },
+  {
+    title: "Flows",
+    menu: `Flows`,
+    tags: ["code", "design", "testing"],
+    mainImg:
+      "https://drive.google.com/file/d/1bfYHYkr6Kwv-GFuXdB2aIUxvUNChaiId/view?usp=sharing",
+    description: `Flows is a series of four media compositions produced between 2020-2021.
+
+    The series is a combined work of electronic music production and graphics programming, composed entirely with software as a reflection on data as material and medium. The work follows research into an expansive field of digital sculpture within which visual and sonic elements are combined and developed as oppositions throughout practice.
+    
+    Through working with low-level visual and audio programming tools, contingency is developed as a theme throughout the work as part of a ‘limited aleatoric counterpoint’. The varied audio sources represents an archival approach to re-sampling salvaged material from hard-drives which is then processed using a breadth of DSP techniques in an electroacoustic language inspired by the Hyperrealism of Noah Creshevsky. Visually, early pioneers of ‘visual music’ such as John Whitney and Oskar Fischinger are referenced alongside experimental film-makers such as Stan Brakhage.`,
+    links: {
+      online: "https://player.vimeo.com/video/507461364",
+    },
+    imgAssets: {},
+    idProject: "flows",
+  },
+  {
+    title: "webCalculator",
+    menu: `Digital Calculator`,
+    tags: ["code", "design", "testing"],
+    mainImg:
+      "https://drive.google.com/file/d/1PRfcFofpdlX1_ymOcs7UFwDm2tsYZgtY/view?usp=sharing",
+    description:
+      "This is a basic digital calculator programmed using Javascript. Click the body of the calculator to change colour, screen to clear, and search through previous queries using the right hand panel. The font used is 'Basteleur' by Keussel.",
+    links: {
+      online: "https://wwirving.github.io/webCalculator/",
+      github: "https://github.com/wwirving/webCalculator",
+      figma:
+        "https://www.figma.com/file/m84cm9QshEQYCZ4x4G6Ctv/Calculator?node-id=0%3A1",
+    },
+    imgAssets: {},
+    idProject: "calc",
   },
   // {
   //   title: "L2IMG",
