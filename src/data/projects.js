@@ -1,5 +1,27 @@
 const projects = [
   {
+    title: "SCI-MX",
+    menu: `SCI-MX`,
+    tags: ["coding", "design", "database"],
+    mainImg:
+      "https://drive.google.com/file/d/1f9KFcmvP4R5KYjD3Lv5ouxSay0s4rHDT/view?usp=sharing",
+    alt: "sci-mx menu image",
+    hoverImg: "",
+    description: `The SCI-MX app was created in collaboration with Ross Richardson and Gemma Peakman from SCI-MX as part of the final client-project from the Nology software development course. 
+    
+    The app was created around a brief to develop a workout library for the brand audience and to promote selected SCI-MX products and social channels.
+    
+    The app was prototyped in Figma and then developed using React (Front-End) and Firebase (Back-End). For a full description of the project see the Github link below.`,
+    links: {
+      online: "https://client-project-f60f4.firebaseapp.com/",
+      github: "https://github.com/nology-tech/sci-mx",
+      figma:
+        "https://www.figma.com/file/FD21nxBEniYTAn0dXup42C/Sculpture-API?node-id=0%3A1",
+    },
+    imgAssets: {},
+    idProject: "scimx",
+  },
+  {
     title: "artefact",
     menu: `Artefact`,
     tags: ["coding", "design"],
