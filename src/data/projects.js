@@ -1,5 +1,25 @@
 const projects = [
   {
+    title: "Soft Circuits",
+    menu: `Soft Circuits`,
+    tags: ["coding", "design", "audio"],
+    mainImg:
+      "https://drive.google.com/file/d/1Je2xLUZaHejrLJnwL5wkZvsv9O0fG2vF/view?usp=sharing",
+    alt: "soft circuits menu image",
+    hoverImg: "",
+    description: `The Soft Circuits app is the first digital project released as part of an ongoing collaboration with Bristol based audio company Soft Circuits. The page was designed to promote the upcoming release of 'Polymorph', a granular synthesiser engine developed for the Roli Seaboard and with an accompanying Kontact library.
+    
+    The main page filters between 2 GLSL liquid shaders created using Three.JS and allows full mobile and desktop interactivity. The app is also audio-reactive, dynamically effecting the volume of 4 voices using the screen as an XY controller. Front-end for the app is built using React, and includes layered IFrames running three.JS scripts remotely. The audio processing and effects chain are handled by Howler and Tuna.JS. After a timeout, users can navigate to a mailing list which is dynamically connected to MailChimp. 
+    
+    To read more about the project follow the github link below.`,
+    links: {
+      online: "https://soft-circuits.web.app/",
+      github: "https://github.com/wwirving/soft-circuits",
+    },
+    imgAssets: {},
+    idProject: "softcircuits",
+  },
+  {
     title: "SCI-MX",
     menu: `SCI-MX`,
     tags: ["coding", "design", "database"],
@@ -20,6 +40,28 @@ const projects = [
     },
     imgAssets: {},
     idProject: "scimx",
+  },
+  {
+    title: "Palette",
+    menu: `Palette`,
+    tags: ["coding", "design", "full-stack"],
+    mainImg:
+      "https://drive.google.com/file/d/1PNQKATDfgivV4qX2UyK1iBaopWdY0yVw/view?usp=sharing",
+    alt: "palette menu image",
+    hoverImg: "",
+    description: `Palette is a full-stack application built to save and manage font and colour libraries for freelance projects as a web developer and designer. 
+    
+    The back-end for the app is built using Java and SQL (deployed via. Google Cloud) and the front-end is built in React.
+    
+    This application is currently still under development, however the code base for both front and back-end and figma file can be found in the github info.`,
+    links: {
+      online: "https://palette-b8ebf.web.app/",
+      github: "https://github.com/wwirving/palette-frontend",
+      figma:
+        "https://www.figma.com/file/FD21nxBEniYTAn0dXup42C/Sculpture-API?node-id=0%3A1",
+    },
+    imgAssets: {},
+    idProject: "palette",
   },
   {
     title: "artefact",
@@ -107,6 +149,21 @@ const projects = [
     },
     imgAssets: {},
     idProject: "calc",
+  },
+  {
+    title: "Forms",
+    menu: `Forms`,
+    tags: ["visual programming", "design", "audio production"],
+    mainImg:
+      "https://drive.google.com/file/d/1KtLLaOw4IzQ5qB0Ja5sXIPFpesC1HWnS/view?usp=sharing",
+    description: `Forms is a series of 8 short media compositions produced in 2020 as part of initial research into audiovisual relationships and digital sculpture.
+
+    Each form was generated using the 3D modelling technique ‘volume ray marching’ and then short, experimental scores were produced improvisationally in response to each clip over the course of a week. Visually, this the first experiment with graphics programming in practice and takes influence from the early computer art demoscene. Sonically, an aim for the project was to create short audio motifs and partner them with forms such that when either the visual ‘sculputre’ or isolated piece of audio would be recalled, its counterpart would come to mind, a method of enquiry that has been since continued and developed in later work.`,
+    links: {
+      online: "https://player.vimeo.com/video/508797418",
+    },
+    imgAssets: {},
+    idProject: "flows",
   },
   // {
   //   title: "L2IMG",
