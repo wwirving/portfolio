@@ -2,7 +2,7 @@ const projects = [
   {
     title: "Soft Circuits",
     menu: `Soft Circuits`,
-    tags: ["coding", "design", "audio"],
+    tags: ["react -", "three.js -", "interactive av app"],
     mainImg:
       "https://drive.google.com/file/d/1Je2xLUZaHejrLJnwL5wkZvsv9O0fG2vF/view?usp=sharing",
     alt: "soft circuits menu image",
@@ -22,12 +22,12 @@ const projects = [
   {
     title: "SCI-MX",
     menu: `SCI-MX`,
-    tags: ["coding", "design", "database"],
+    tags: ["react -", "firebase -", "fitness app"],
     mainImg:
       "https://drive.google.com/file/d/1f9KFcmvP4R5KYjD3Lv5ouxSay0s4rHDT/view?usp=sharing",
     alt: "sci-mx menu image",
     hoverImg: "",
-    description: `The SCI-MX app was created in collaboration with Ross Richardson and Gemma Peakman from SCI-MX as part of the final client-project from the Nology software development course. 
+    description: `The SCI-MX fitness app was created in collaboration with SCI-MX as part of the final client-project from the Nology software development course. 
     
     The app was created around a brief to develop a workout library for the brand audience and to promote selected SCI-MX products and social channels.
     
@@ -44,7 +44,7 @@ const projects = [
   {
     title: "Palette",
     menu: `Palette`,
-    tags: ["coding", "design", "full-stack"],
+    tags: ["java -", "react -", "sql -", "full stack app"],
     mainImg:
       "https://drive.google.com/file/d/1PNQKATDfgivV4qX2UyK1iBaopWdY0yVw/view?usp=sharing",
     alt: "palette menu image",
@@ -66,7 +66,7 @@ const projects = [
   {
     title: "artefact",
     menu: `Artefact`,
-    tags: ["coding", "design"],
+    tags: ["react -", "api -", "MET museum api"],
     mainImg:
       "https://drive.google.com/file/d/1nFQ4Px60qapHz0pgNRyve71UpfYWilD8/view?usp=sharing",
     alt: "artefact menu image",
@@ -84,7 +84,7 @@ const projects = [
   {
     title: "objectCloud",
     menu: `Object Cloud`,
-    tags: ["coding", "design", "sound"],
+    tags: ["javascript -", "howler -", "av game"],
     mainImg:
       "https://drive.google.com/file/d/1yqhG5S4u4a3H3XrB27OcPSBq9MWNCf7r/view?usp=sharing",
     alt: "objectCloud menu image",
@@ -102,7 +102,7 @@ const projects = [
   {
     title: "morseTranslator",
     menu: `Morse Translator`,
-    tags: ["code", "design", "testing"],
+    tags: ["javascript -", "jest -", "translation app"],
     mainImg:
       "https://drive.google.com/file/d/1YcQ55OuoyVpvIhLqyh2zpomU86vVJgH6/view?usp=sharing",
     description:
@@ -119,7 +119,7 @@ const projects = [
   {
     title: "Flows",
     menu: `Flows`,
-    tags: ["code", "design", "testing"],
+    tags: ["glsl -", "ableton -", "touchdesigner -", "av series"],
     mainImg:
       "https://drive.google.com/file/d/1bfYHYkr6Kwv-GFuXdB2aIUxvUNChaiId/view?usp=sharing",
     description: `Flows is a series of four media compositions produced between 2020-2021.
@@ -136,7 +136,7 @@ const projects = [
   {
     title: "webCalculator",
     menu: `Digital Calculator`,
-    tags: ["code", "design", "testing"],
+    tags: ["javascript- ", "cypress- ", "web app"],
     mainImg:
       "https://drive.google.com/file/d/1PRfcFofpdlX1_ymOcs7UFwDm2tsYZgtY/view?usp=sharing",
     description:
@@ -153,7 +153,7 @@ const projects = [
   {
     title: "Forms",
     menu: `Forms`,
-    tags: ["visual programming", "design", "audio production"],
+    tags: ["glsl- ", "touchdesigner -", "ableton- ", "av series"],
     mainImg:
       "https://drive.google.com/file/d/1KtLLaOw4IzQ5qB0Ja5sXIPFpesC1HWnS/view?usp=sharing",
     description: `Forms is a series of 8 short media compositions produced in 2020 as part of initial research into audiovisual relationships and digital sculpture.

@@ -15,7 +15,7 @@
   padding-left: 2px;
   display: grid;
   gap: 0.5;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.6fr 1fr;
   & > .left > li {
     list-style-type: none;
     line-height: 0.5;
@@ -23,21 +23,22 @@
   }
   & > .right > li {
     list-style-type: none;
-    line-height: 2;
-    text-align: right;
+    line-height: 0.5;
+    text-align: left;
+  }
+  .tag > span {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.2vw;
   }
 }
 
-.tags {
-  width: 100%;
+.itemContainer {
   display: flex;
   flex-direction: row;
+  width: 100%;
   justify-content: space-between;
-  align-items: c;
-  & > p {
-    font-family: "SuisseIntlItalic";
-    text-align: right;
-  }
+  align-items: space-between;
 }
 
 .link {
